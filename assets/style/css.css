@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+body {
+  background-color: black;
+}
+
+nav {
+  padding: 0px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: black;
+  height: 115.59px;
+
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    list-style: none;
+
+    a {
+      color: white;
+      text-decoration: none;
+      line-height: 25.6px;
+      font-size: 16px;
+      font-weight: 300;
+      font-style: Light;
+      font-family: "Noto Serif JP", serif;
+    }
+  }
+}
